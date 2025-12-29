@@ -1,0 +1,31 @@
+SYSTEM USAGE ANALYSIS – NOTES
+
+Q1. What is the average CPU and RAM usage?
+Answer:The average cpu is at 3% and the average ram usage is at 45%
+
+Q2. When did the highest CPU usage occur?
+Answer: The highest cpu usage occured at around "14:15:10" at 29%.
+        timestamp    2025-12-28 14:15:10
+        cpu_usage                     29
+        ram_usage                     46
+        Name: 61, dtype: object
+
+Q3. Was CPU usage stable or variable?
+Answer:No the cpu was stable enough and the highest spike was at 29%.
+        Analysis: Matplotlib line chart
+
+Q4. Did RAM usage change significantly?
+Answer:No the ram usage didnt change significantly, RAM usage was very stable.
+    Analysis: Matplotlib line chart
+
+Q5. What pattern does the CPU usage graph show?
+Answer:The graph shows that the cpu usage was not stable and had several spikes and highest at 29% and average at around 3%
+
+Q6. Were there any unusual spikes or anomalies?
+Answer:One unusual spike in CPU usage was observed, reaching at 29% at a specific timestamp.
+    No anomalies were spotted in RAM usage.
+
+Q7. Final summary of system performance:
+Answer: CPU was at low level during most of the session, with one unsual spike at around 30% during a specific timestamp.
+        RAM usage was stable.
+        Overall the system was normal with no significant high resource utilization.
